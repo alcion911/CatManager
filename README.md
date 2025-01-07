@@ -6,12 +6,6 @@ Cat Manager is an application that allows you to manage a list of animals and di
 CatManager/ ├── animal-crud/ # Backend in Go │ ├── Dockerfile # Dockerfile for the backend │ ├── go.mod # Go modules file │ ├── go.sum # Go modules checksum file │ ├── main.go # Entry point of the application │ ├── routes/ # API routes │ │ └── animal_routes.go # Routes for managing animals └── animal-crud-frontend/ # Frontend in React ├── Dockerfile # Dockerfile for the frontend ├── package.json # Dependencies and scripts for React ├── src/ # Source code of the React application │ ├── components/ # React components │ │ ├── AnimalForm.js # Component for adding/editing animals │ │ ├── AnimalList.js # Component for listing animals │ │ └── CatCarousel.js # Component for displaying cat images │ ├── context/ # Context for state management │ │ └── AnimalContext.js # Context for animals │ ├── App.js # Main component of the application │ └── index.js # Entry point of React └── docker-compose.yml # File to orchestrate the containers
 
 
-Verify
-
-Open In Editor
-Run
-Copy code
-
 ## Prerequisites
 
 - [Docker](https://www.docker.com/get-started) and [Docker Compose](https://docs.docker.com/compose/) installed on your machine.
@@ -31,13 +25,8 @@ Build and start the containers:
 Make sure you are in the root of the project (where the docker-compose.yml file is located) and run:
 
 bash
-
-Verify
-
-Open In Editor
-Run
-Copy code
 docker-compose up --build
+
 This command will build the Docker images for the backend and frontend and start the containers.
 
 Access the application:
@@ -73,18 +62,3 @@ If you would like to contribute to this project, feel free to open an issue or s
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
-
-Verify
-
-Open In Editor
-Run
-Copy code
-
-### Saving the File
-
-1. Open a text editor (like Notepad, VSCode, or any other).
-2. Copy the above content.
-3. Paste it into the text editor.
-4. Save the file as `README.txt` or `README.md` in your project directory.
-
-If you have any further questions or need additional assistance, feel free to ask!
