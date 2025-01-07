@@ -62,3 +62,7 @@ If you would like to contribute to this project, feel free to open an issue or s
 License
 This project is licensed under the MIT License. See the LICENSE file for more details.
 
+
+### Clarification of AWS Integration
+AWS supports docker container integration, so the next step for integration with AWS is to upload the docker containers to AWS using Amazon EC2 to lift the containers in a linux environment, and the DB would be lifted using Amazon RDS.
+
